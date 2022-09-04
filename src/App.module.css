@@ -1,0 +1,27 @@
+.app {
+    width: 600px;
+    height: 600px;
+    border-bottom: 2px solid grey;
+    border-right: 2px solid grey;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.filters {
+    height: 500px
+}
+
+.pagination{
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+
+}
+.error {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

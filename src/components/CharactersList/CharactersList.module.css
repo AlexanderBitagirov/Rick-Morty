@@ -1,0 +1,6 @@
+.content {
+    display: grid;
+    justify-content: end;
+    overflow-y: auto;
+    height: 500px;
+}

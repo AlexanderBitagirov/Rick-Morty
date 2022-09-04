@@ -1,0 +1,23 @@
+.cardCharacter {
+    background-color: white;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    max-height: max-content;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 0 0 3px 2px slategray;
+    
+
+}
+
+
+
+
+.cardCharacterText {
+    max-width: 200px;
+    white-space: normal;
+    padding-left: 10px;
+    font-weight: bold;
+}
+

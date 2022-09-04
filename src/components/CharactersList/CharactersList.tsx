@@ -1,3 +1,4 @@
+import { Typography } from "@mui/material";
 import { useState } from "react";
 import { ISingleCharacter } from "../../interfaces/SingleCharacter.interfacer";
 import CardCharacter from "../Card/Card";
@@ -25,11 +26,11 @@ const CharactersList = ({results}: IResults): JSX.Element => {
       </div>
       {current && (
         <CustomDialog active={activeDialog} setActive={setActive}>
-          <div>Name: {current.name}</div>
-          <div>Status: {current.status}</div>
-          <div>Species: {current.species}</div>
-          <div>Gender: {current.gender}</div>
-          {current.type && <div>Type: {current.type} </div>}
+          <Typography>Name: {current.name}</Typography>
+          <Typography>Status: {current.status}</Typography>
+          <Typography>Species: {current.species}</Typography>
+          <Typography>Gender: {current.gender}</Typography>
+          {current.type && <Typography>Type: {current.type} </Typography>}
         </CustomDialog>
       )}
     </div>

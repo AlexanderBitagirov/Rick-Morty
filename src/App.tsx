@@ -55,6 +55,7 @@ function App() {
             setName={setName}
             setType={setType}
             setSpecies={setSpecies}
+            setPage={setPage}
           />
         </div>
         <div>

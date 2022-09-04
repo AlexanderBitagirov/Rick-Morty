@@ -6,4 +6,5 @@ export interface IFiltersProps {
     setName: Dispatch<React.SetStateAction<string>>;
     setType: Dispatch<React.SetStateAction<string>>;
     setSpecies: Dispatch<React.SetStateAction<string>>;
+    setPage: Dispatch<React.SetStateAction<number>>
 }

@@ -17,6 +17,7 @@ const Filters = ({
   setName,
   setType,
   setSpecies,
+  setPage
 }: IFiltersProps) => {
   const [statusSelect, setStatusSelect] = useState<string>("");
   const [genderSelect, setGenderSelect] = useState<string>("");
@@ -55,6 +56,7 @@ const Filters = ({
     setStatus("");
     setType("");
     setSpecies("");
+    setPage(1);
   };
 
   return (
